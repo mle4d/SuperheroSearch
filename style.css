@@ -1,0 +1,11 @@
+HTML {
+  box-sizing: border-box;
+  background: #f23c27;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  padding: 4px;
+  margin: 0;
+}
