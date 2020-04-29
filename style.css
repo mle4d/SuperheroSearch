@@ -6,6 +6,12 @@ HTML {
   box-sizing: inherit;
 }
 body {
-  padding: 4px;
-  margin: 0;
+  margin: auto;
+}
+.container {
+  border: solid black 1px;
+  width: 95vw;
+  height: 90vh;
+  margin: auto;
+  margin-top: 2%;
 }
