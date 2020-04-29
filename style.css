@@ -1,6 +1,7 @@
 HTML {
   box-sizing: border-box;
   background: #f23c27;
+  cursor: url(assets/cursor.png), auto;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -29,6 +30,7 @@ body {
   width: 100%;
   background: url(assets/title.png) top left no-repeat;
   background-size: 100%;
+  transform: rotate(-10deg);
 }
 .info {
   height: 40%;
