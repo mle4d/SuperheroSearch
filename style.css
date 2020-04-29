@@ -41,8 +41,52 @@ body {
   border-radius: 20px;
 }
 .game {
-  width: 60%;
+  width: 48%;
   height: 100%;
   background: url(assets/Pow.png) center no-repeat;
-  background-size: 80%;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: stretch;
+  align-items: flex-end;
+  border: yellow 1px solid;
+}
+.block {
+  border: black solid 1px;
+  width: 28%;
+  height: 30%;
+}
+.block1 {
+  height: 34%;
+  width: 30%;
+}
+.block2, .block3 {
+  height: 34%;
+  width: 33%;
+}
+.block4 {
+ height: 28%;
+ width: 30%;
+}
+.block5 {
+  height: 31%;
+  width: 32%;
+ }
+ .block6 {
+  height: 31%;
+  width: 32%;
+ }
+.block7 {
+  height: 26%;
+  width: 30%;
+}
+.block8 {
+  height: 28%;
+  width: 31%;
+}
+.block9 {
+  height: 26%;
+  width: 34%;
 }
