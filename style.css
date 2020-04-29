@@ -14,4 +14,27 @@ body {
   height: 90vh;
   margin: auto;
   margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  overflow: visible;
+}
+.side {
+  width: 30%;
+  height: 100%;
+  overflow: visible;
+}
+.title {
+  height: 60%;
+  width: 100%;
+  background: url(assets/title.png) top left no-repeat;
+  background-size: 100%;
+}
+.info {
+  height: 40%;
+  width: 100%;
+  background: url(assets/info.png) left no-repeat;
+  background-size: cover;
+  border: solid 5px #13729e;
+  border-radius: 20px;
 }
