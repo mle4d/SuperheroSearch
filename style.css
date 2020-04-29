@@ -7,6 +7,7 @@ HTML {
 }
 body {
   margin: auto;
+  overscroll-behavior: none;
 }
 .container {
   width: 95vw;
