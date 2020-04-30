@@ -51,12 +51,9 @@ body {
   justify-content: space-around;
   align-content: stretch;
   align-items: flex-end;
-  border: yellow 1px solid;
 }
 .block {
   border: black solid 1px;
-  width: 28%;
-  height: 30%;
 }
 .block1 {
   height: 34%;
