@@ -1,7 +1,6 @@
 HTML {
   box-sizing: border-box;
   background: #f23c27;
-  cursor: url(assets/cursor.png), auto;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -35,9 +34,8 @@ body {
 .play {
   height: 40%;
   width: 100%;
-  background: url(assets/Play.png) left no-repeat;
-  background-size: 100%;
-  /* border: solid 5px #13729e; */
+  background: url(assets/Play.png) center no-repeat;
+  background-size: 80%;
   border-radius: 20px;
 }
 .middle {
@@ -70,9 +68,10 @@ body {
   justify-content: space-around;
   align-content: stretch;
   align-items: flex-end;
+  cursor: url(assets/cursor.png), auto;
 }
 .block {
-  border: black solid 1px;
+  /* border: #f23c27 solid 1px; */
 }
 .block1 {
   height: 34%;
