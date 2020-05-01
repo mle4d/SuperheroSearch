@@ -20,6 +20,7 @@ document.querySelector('.play').addEventListener('click', function() {
   document.querySelector('.superhero4').style.background = 'url(assets/superheros/wolverine.png) center no-repeat';
   document.querySelector('.superhero8').style.background = 'url(assets/superheros/greenranger.png) center no-repeat';
   document.querySelector('.level').innerHTML = 'Level 1';
+  document.querySelector('.results').innerHTML = 'Difficulty Level: Easy';
   document.querySelector('.middle').style.opacity = '1';
   document.querySelector('.play').style.background = 'url(assets/go.png) center no-repeat';
   document.querySelector('.play').style.backgroundSize = '80%';
@@ -79,6 +80,7 @@ function timer(seconds) {
     }
     if(secondsLeft < 0) {
       clearInterval(countdown);
+      document.querySelector('.results').innerHTML = `you found ${score} out of 4`;
       return;
     }
     displayTimeLeft(secondsLeft);
