@@ -132,10 +132,11 @@ body {
   width: 34%;
 }
 .superhero {
- height: 60%;
- width: auto;
+ height: 100%;
+ width: 100%;
  opacity: 0;
  transition: ease .5s;
+ background: center no-repeat;
 }
 .superhero:hover {
   opacity: 1;
