@@ -65,8 +65,15 @@ body {
 .timer {
   width: 100%;
   height: 45%;
-  background: url(assets/time.png) center no-repeat;
+  background: url(assets/time.png) left no-repeat;
   background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Chewy', cursive;
+  color: #1b729f;
+  text-align: center;
+  font-size: 12vmin;
 }
 .score {
   width: 100%;
