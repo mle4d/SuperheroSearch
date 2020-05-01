@@ -22,8 +22,7 @@ document.querySelector('.play').addEventListener('click', function() {
   document.querySelector('.level').innerHTML = 'Level 1';
   document.querySelector('.results').innerHTML = 'Difficulty Level: Easy';
   document.querySelector('.middle').style.opacity = '1';
-  document.querySelector('.play').style.background = 'url(assets/go.png) center no-repeat';
-  document.querySelector('.play').style.backgroundSize = '80%';
+  document.querySelector('.play').classList.toggle('go');
   window.body
 });
 document.querySelector('.superhero1').addEventListener('click', function() {
@@ -77,8 +76,9 @@ function timer(seconds) {
   countdown = setInterval(() => {
     const secondsLeft = Math.round((then - Date.now()) / 1000);
     if(secondsLeft < 6) {
-      document.querySelector('.timer').style.color ='#f23c27';
-      buzzer.play()
+      timerDisplay.style.color ='#f23c27';
+
+      // buzzer.play()
     }
     if(secondsLeft < 0) {
       clearInterval(countdown);
@@ -92,7 +92,9 @@ function timer(seconds) {
       document.querySelector('.superhero7').style.display ='none';
       document.querySelector('.superhero8').style.display ='none';
       document.querySelector('.superhero9').style.display ='none';
+      document.querySelector('.go').classList.toggle('round2');
       buzzer.pause()
+      // document.querySelector('.timer').style.color ='#1b729f';
       return;
     }
     displayTimeLeft(secondsLeft);
@@ -114,9 +116,4 @@ function startTimer() {
 }
 
 buttons.forEach(button => button.addEventListener('click', startTimer));
-document.customForm.addEventListener('submit', function(e) {
-  e.preventDefault();
-  const mins = this.minutes.value;
-  timer(mins * 60);
-  this.reset();
-});
+
