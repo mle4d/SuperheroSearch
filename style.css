@@ -44,6 +44,46 @@ body {
 .play:hover {
   transform: scaleX(1.1) scaleY(1.1);
 }
+.go {
+  height: 40%;
+  width: 100%;
+  background: url(assets/go.png) center no-repeat;
+  background-size: 80%;
+  border-radius: 20px;
+  transition: ease 0.3s;
+}
+.round2 {
+  height: 40%;
+  width: 100%;
+  background: url(assets/Round2.png) center no-repeat;
+  background-size: 80%;
+  border-radius: 20px;
+  transition: ease 0.3s;
+}
+.round3 {
+  height: 40%;
+  width: 100%;
+  background: url(assets/Round3.png) center no-repeat;
+  background-size: 80%;
+  border-radius: 20px;
+  transition: ease 0.3s;
+}
+.round4 {
+  height: 40%;
+  width: 100%;
+  background: url(assets/Round4.png) center no-repeat;
+  background-size: 80%;
+  border-radius: 20px;
+  transition: ease 0.3s;
+}
+.round5 {
+  height: 40%;
+  width: 100%;
+  background: url(assets/Round5.png) center no-repeat;
+  background-size: 80%;
+  border-radius: 20px;
+  transition: ease 0.3s;
+}
 .middle {
   height: 100%;
   width: 20%;
