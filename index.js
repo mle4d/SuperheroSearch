@@ -25,6 +25,42 @@ document.querySelector('.play').addEventListener('click', function() {
   document.querySelector('.play').style.backgroundSize = '80%';
   window.body
 });
+document.querySelector('.superhero1').addEventListener('click', function() {
+  document.querySelector('.superhero1').style.display = 'none';
+  window.body
+});
+document.querySelector('.superhero2').addEventListener('click', function() {
+  document.querySelector('.superhero2').style.display = 'none';
+  window.body
+});
+document.querySelector('.superhero3').addEventListener('click', function() {
+  document.querySelector('.superhero3').style.display = 'none';
+  window.body
+});
+document.querySelector('.superhero4').addEventListener('click', function() {
+  document.querySelector('.superhero4').style.display = 'none';
+  window.body
+});
+document.querySelector('.superhero5').addEventListener('click', function() {
+  document.querySelector('.superhero5').style.display = 'none';
+  window.body
+});
+document.querySelector('.superhero6').addEventListener('click', function() {
+  document.querySelector('.superhero6').style.display = 'none';
+  window.body
+});
+document.querySelector('.superhero7').addEventListener('click', function() {
+  document.querySelector('.superhero7').style.display = 'none';
+  window.body
+});
+document.querySelector('.superhero8').addEventListener('click', function() {
+  document.querySelector('.superhero8').style.display = 'none';
+  window.body
+});
+document.querySelector('.superhero9').addEventListener('click', function() {
+  document.querySelector('.superhero9').style.display = 'none';
+  window.body
+});
 let countdown;
 const timerDisplay = document.querySelector('.timer');
 const buttons = document.querySelectorAll('[data-time]');
