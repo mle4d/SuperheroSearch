@@ -76,7 +76,9 @@ body {
   cursor: url(assets/cursor.png), auto;
 }
 .block {
-  /* border: #f23c27 solid 1px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .block1 {
   height: 34%;
@@ -109,4 +111,13 @@ body {
 .block9 {
   height: 26%;
   width: 34%;
+}
+.superhero {
+ height: 60%;
+ width: auto;
+ opacity: 0;
+ transition: ease 1s;
+}
+.superhero:hover {
+  opacity: 1;
 }
