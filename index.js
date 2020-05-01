@@ -65,7 +65,7 @@ document.querySelector('.superhero9').addEventListener('click', function() {
 let countdown;
 const timerDisplay = document.querySelector('.timer');
 const buttons = document.querySelectorAll('[data-time]');
-const buzzer = new Audio ('assets/buzzersound.m4a');
+const buzzer = new Audio ('assets/sounds/buzzersound.m4a');
 
 function timer(seconds) {
   clearInterval(countdown);
@@ -92,7 +92,7 @@ function timer(seconds) {
       document.querySelector('.superhero7').style.display ='none';
       document.querySelector('.superhero8').style.display ='none';
       document.querySelector('.superhero9').style.display ='none';
-      audio.pause()
+      buzzer.pause()
       return;
     }
     displayTimeLeft(secondsLeft);
