@@ -65,6 +65,7 @@ document.querySelector('.superhero9').addEventListener('click', function() {
 let countdown;
 const timerDisplay = document.querySelector('.timer');
 const buttons = document.querySelectorAll('[data-time]');
+const audio = new Audio ('assets/buzzersound.m4a');
 
 function timer(seconds) {
   clearInterval(countdown);
@@ -77,10 +78,12 @@ function timer(seconds) {
     const secondsLeft = Math.round((then - Date.now()) / 1000);
     if(secondsLeft < 6) {
       document.querySelector('.timer').style.color ='#f23c27';
+      audio.play()
     }
     if(secondsLeft < 0) {
       clearInterval(countdown);
       document.querySelector('.results').innerHTML = `you found ${score} out of 4`;
+      audio.pause()
       return;
     }
     displayTimeLeft(secondsLeft);
