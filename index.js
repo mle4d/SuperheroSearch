@@ -1,8 +1,24 @@
+const scoreBoard = document.querySelector('.score');
+const superheros = document.querySelectorAll('.superhero');
+let score = 0;
+function startGame() {
+  scoreBoard.textContent = 0;
+  timeUp = false;
+  score = 0;
+}
+
+function bonk(e) {
+  if(!e.isTrusted) return;
+  score++;
+  scoreBoard.textContent = score;
+}
+
+superheros.forEach(superhero => superhero.addEventListener('click', bonk));
 document.querySelector('.play').addEventListener('click', function() {
-  document.querySelector('.block1').innerHTML = '<img class="superhero" src="assets/superheros/Buzz.png">';
-  document.querySelector('.block3').innerHTML = '<img class="superhero" src="assets/superheros/deadpool.png">';
-  document.querySelector('.block4').innerHTML = '<img class="superhero" src="assets/superheros/wolverine.png">';
-  document.querySelector('.block8').innerHTML = '<img class="superhero" src="assets/superheros/greenranger.png">';
+  document.querySelector('.superhero1').style.background = 'url(assets/superheros/Buzz.png) center no-repeat';
+  document.querySelector('.superhero3').style.background = 'url(assets/superheros/deadpool.png) center no-repeat';
+  document.querySelector('.superhero4').style.background = 'url(assets/superheros/wolverine.png) center no-repeat';
+  document.querySelector('.superhero8').style.background = 'url(assets/superheros/greenranger.png) center no-repeat';
   document.querySelector('.level').innerHTML = 'Level 1';
   document.querySelector('.middle').style.opacity = '1';
   document.querySelector('.play').style.background = 'url(assets/go.png) center no-repeat';
