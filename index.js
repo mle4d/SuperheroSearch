@@ -29,9 +29,6 @@ let countdown;
 const timerDisplay = document.querySelector('.timer');
 const buttons = document.querySelectorAll('[data-time]');
 
-
-
-
 function timer(seconds) {
   clearInterval(countdown);
   const now = Date.now();
@@ -41,6 +38,9 @@ function timer(seconds) {
 
   countdown = setInterval(() => {
     const secondsLeft = Math.round((then - Date.now()) / 1000);
+    if(secondsLeft < 6) {
+      document.querySelector('.timer').style.color ='#f23c27';
+    }
     if(secondsLeft < 0) {
       clearInterval(countdown);
       return;
