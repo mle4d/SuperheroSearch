@@ -14,6 +14,7 @@ function bonk(e) {
 }
 
 superheros.forEach(superhero => superhero.addEventListener('click', bonk));
+
 document.querySelector('.play').addEventListener('click', function() {
   document.querySelector('.superhero1').style.background = 'url(assets/superheros/Buzz.png) center no-repeat';
   document.querySelector('.superhero3').style.background = 'url(assets/superheros/deadpool.png) center no-repeat';
@@ -92,9 +93,9 @@ function timer(seconds) {
       document.querySelector('.superhero7').style.display ='none';
       document.querySelector('.superhero8').style.display ='none';
       document.querySelector('.superhero9').style.display ='none';
-      document.querySelector('.go').classList.toggle('round2');
+      if(document.querySelector('.go').classList.toggle('round2'));
       buzzer.pause()
-      // document.querySelector('.timer').style.color ='#1b729f';
+      document.querySelector('.timer').style.color ='#1b729f';
       return;
     }
     displayTimeLeft(secondsLeft);
