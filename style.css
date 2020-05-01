@@ -50,6 +50,17 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  opacity: 0;
+}
+.level {
+  height: 10%;
+  width: 100%;
+  font-family: 'Atma', cursive;
+  color: #fedb0e;
+  font-size: 9vmin;
+  text-align: center;
+  line-height: 50px;
+  border-bottom: #1b729f 5px solid;
 }
 .timer {
   width: 100%;
@@ -117,7 +128,7 @@ body {
  height: 60%;
  width: auto;
  opacity: 0;
- transition: ease 1s;
+ transition: ease .5s;
 }
 .superhero:hover {
   opacity: 1;
