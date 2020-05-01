@@ -83,6 +83,15 @@ function timer(seconds) {
     if(secondsLeft < 0) {
       clearInterval(countdown);
       document.querySelector('.results').innerHTML = `you found ${score} out of 4`;
+      document.querySelector('.superhero1').style.display ='none';
+      document.querySelector('.superhero2').style.display ='none';
+      document.querySelector('.superhero3').style.display ='none';
+      document.querySelector('.superhero4').style.display ='none';
+      document.querySelector('.superhero5').style.display ='none';
+      document.querySelector('.superhero6').style.display ='none';
+      document.querySelector('.superhero7').style.display ='none';
+      document.querySelector('.superhero8').style.display ='none';
+      document.querySelector('.superhero9').style.display ='none';
       audio.pause()
       return;
     }
