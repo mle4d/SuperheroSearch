@@ -1,6 +1,12 @@
 const scoreBoard = document.querySelector('.score');
+const wholeScore = document.querySelector('.wholescore');
 const superheros = document.querySelectorAll('.superhero');
 let score = 0;
+function startWholeGame() {
+  wholeScore.textContent = 0;
+  timeUp = false;
+  wholescore = 0;
+}
 function startGame() {
   scoreBoard.textContent = 0;
   timeUp = false;
@@ -9,8 +15,10 @@ function startGame() {
 
 function bonk(e) {
   if(!e.isTrusted) return;
+  wholescore++;
   score++;
   scoreBoard.textContent = score;
+  wholeScore.textContent = wholescore;
 }
 
 superheros.forEach(superhero => superhero.addEventListener('click', bonk));
@@ -85,6 +93,8 @@ document.querySelector('.round3').addEventListener('click', function() {
 
 document.querySelector('.superhero1').addEventListener('click', function() {
   document.querySelector('.superhero1').style.display = 'none';
+  const buzzsound = new Audio ('assets/sounds/buzzsound.mp3');
+  buzzsound.play();
   window.body
 });
 document.querySelector('.superhero2').addEventListener('click', function() {
