@@ -58,6 +58,30 @@ document.querySelector('.round2').addEventListener('click', function() {
 }, 30000);
   window.body
 });
+document.querySelector('.round3').addEventListener('click', function() {
+  document.querySelector('.superhero1').style.background = 'url(assets/superheros/wonderwoman.png) center no-repeat';
+  document.querySelector('.superhero3').style.background = 'url(assets/superheros/superman.png) center no-repeat';
+  document.querySelector('.superhero4').style.background = 'url(assets/superheros/Elastigirl.png) center no-repeat';
+  document.querySelector('.superhero5').style.background = 'url(assets/superheros/deadpool.png) center no-repeat';
+  document.querySelector('.superhero7').style.background = 'url(assets/superheros/superman.png) center no-repeat';
+  document.querySelector('.superhero8').style.background = 'url(assets/superheros/blackpanther.png) center no-repeat';
+  document.querySelector('.level').innerHTML = 'Round 3';
+  document.querySelector('.results').innerHTML = 'Difficulty Level: intermediate';
+  document.querySelector('.middle').style.opacity = '1';
+  document.querySelector('.round3').classList.toggle('go');
+  setTimeout(function() {
+    document.querySelector('.results').innerHTML = `you found ${score} out of 6`;
+    document.querySelector('.round3').style.display = 'none';
+    document.querySelector('.round4').style.display = 'flex';
+    document.querySelector('.superhero1').style.background = 'none';
+    document.querySelector('.superhero3').style.background = 'none';
+    document.querySelector('.superhero4').style.background = 'none';
+    document.querySelector('.superhero5').style.background = 'none';
+    document.querySelector('.superhero7').style.background = 'none';
+    document.querySelector('.superhero8').style.background = 'none';
+}, 30000);
+  window.body
+});
 
 document.querySelector('.superhero1').addEventListener('click', function() {
   document.querySelector('.superhero1').style.display = 'none';
@@ -112,19 +136,10 @@ function timer(seconds) {
     if(secondsLeft < 6) {
       timerDisplay.style.color ='#f23c27';
 
-      // buzzer.play()
+      buzzer.play()
     }
     if(secondsLeft < 0) {
       clearInterval(countdown);
-      // document.querySelector('.superhero1').style.display ='none';
-      // document.querySelector('.superhero2').style.display ='none';
-      // document.querySelector('.superhero3').style.display ='none';
-      // document.querySelector('.superhero4').style.display ='none';
-      // document.querySelector('.superhero5').style.display ='none';
-      // document.querySelector('.superhero6').style.display ='none';
-      // document.querySelector('.superhero7').style.display ='none';
-      // document.querySelector('.superhero8').style.display ='none';
-      // document.querySelector('.superhero9').style.display ='none';
       buzzer.pause()
       document.querySelector('.timer').style.color ='#1b729f';
       return;
