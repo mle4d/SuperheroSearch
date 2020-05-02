@@ -32,6 +32,7 @@ document.querySelector('.play').addEventListener('click', function() {
   document.querySelector('.results').innerHTML = 'Difficulty Level: Beginner';
   document.querySelector('.middle').style.opacity = '1';
   document.querySelector('.play').classList.toggle('go');
+  document.querySelector('#press').style.display = 'none';
   setTimeout(function() {
   document.querySelector('.results').innerHTML = `you found ${score} out of 4`;
   document.querySelector('.play').style.display = 'none';
