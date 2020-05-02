@@ -20,12 +20,41 @@ document.querySelector('.play').addEventListener('click', function() {
   document.querySelector('.superhero3').style.background = 'url(assets/superheros/deadpool.png) center no-repeat';
   document.querySelector('.superhero4').style.background = 'url(assets/superheros/wolverine.png) center no-repeat';
   document.querySelector('.superhero8').style.background = 'url(assets/superheros/greenranger.png) center no-repeat';
-  document.querySelector('.level').innerHTML = 'Level 1';
-  document.querySelector('.results').innerHTML = 'Difficulty Level: Easy';
+  document.querySelector('.level').innerHTML = 'Round 1';
+  document.querySelector('.results').innerHTML = 'Difficulty Level: Beginner';
   document.querySelector('.middle').style.opacity = '1';
   document.querySelector('.play').classList.toggle('go');
   setTimeout(function() {
-  document.querySelector('.go').classList.toggle('round2');
+  document.querySelector('.results').innerHTML = `you found ${score} out of 4`;
+  document.querySelector('.play').style.display = 'none';
+  document.querySelector('.round2').style.display = 'flex';
+  document.querySelector('.superhero1').style.background = 'none';
+  document.querySelector('.superhero3').style.background = 'none';
+  document.querySelector('.superhero4').style.background = 'none';
+  document.querySelector('.superhero8').style.background = 'none';
+}, 30000);
+  window.body
+});
+
+document.querySelector('.round2').addEventListener('click', function() {
+  document.querySelector('.superhero2').style.background = 'url(assets/superheros/ladybug.png) center no-repeat';
+  document.querySelector('.superhero5').style.background = 'url(assets/superheros/captainmarvel.png) center no-repeat';
+  document.querySelector('.superhero6').style.background = 'url(assets/superheros/hulk.png) center no-repeat';
+  document.querySelector('.superhero7').style.background = 'url(assets/superheros/bumblebee.png) center no-repeat';
+  document.querySelector('.superhero9').style.background = 'url(assets/superheros/ironman.png) center no-repeat';
+  document.querySelector('.level').innerHTML = 'Round 2';
+  document.querySelector('.results').innerHTML = 'Difficulty Level: Easy';
+  document.querySelector('.middle').style.opacity = '1';
+  document.querySelector('.round2').classList.toggle('go');
+  setTimeout(function() {
+    document.querySelector('.results').innerHTML = `you found ${score} out of 5`;
+    document.querySelector('.round2').style.display = 'none';
+    document.querySelector('.round3').style.display = 'flex';
+    document.querySelector('.superhero2').style.background = 'none';
+    document.querySelector('.superhero5').style.background = 'none';
+    document.querySelector('.superhero6').style.background = 'none';
+    document.querySelector('.superhero7').style.background = 'none';
+    document.querySelector('.superhero9').style.background = 'none';
 }, 30000);
   window.body
 });
@@ -87,16 +116,15 @@ function timer(seconds) {
     }
     if(secondsLeft < 0) {
       clearInterval(countdown);
-      document.querySelector('.results').innerHTML = `you found ${score} out of 4`;
-      document.querySelector('.superhero1').style.display ='none';
-      document.querySelector('.superhero2').style.display ='none';
-      document.querySelector('.superhero3').style.display ='none';
-      document.querySelector('.superhero4').style.display ='none';
-      document.querySelector('.superhero5').style.display ='none';
-      document.querySelector('.superhero6').style.display ='none';
-      document.querySelector('.superhero7').style.display ='none';
-      document.querySelector('.superhero8').style.display ='none';
-      document.querySelector('.superhero9').style.display ='none';
+      // document.querySelector('.superhero1').style.display ='none';
+      // document.querySelector('.superhero2').style.display ='none';
+      // document.querySelector('.superhero3').style.display ='none';
+      // document.querySelector('.superhero4').style.display ='none';
+      // document.querySelector('.superhero5').style.display ='none';
+      // document.querySelector('.superhero6').style.display ='none';
+      // document.querySelector('.superhero7').style.display ='none';
+      // document.querySelector('.superhero8').style.display ='none';
+      // document.querySelector('.superhero9').style.display ='none';
       buzzer.pause()
       document.querySelector('.timer').style.color ='#1b729f';
       return;
