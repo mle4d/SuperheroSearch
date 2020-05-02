@@ -24,8 +24,12 @@ document.querySelector('.play').addEventListener('click', function() {
   document.querySelector('.results').innerHTML = 'Difficulty Level: Easy';
   document.querySelector('.middle').style.opacity = '1';
   document.querySelector('.play').classList.toggle('go');
+  setTimeout(function() {
+  document.querySelector('.go').classList.toggle('round2');
+}, 30000);
   window.body
 });
+
 document.querySelector('.superhero1').addEventListener('click', function() {
   document.querySelector('.superhero1').style.display = 'none';
   window.body
@@ -93,7 +97,6 @@ function timer(seconds) {
       document.querySelector('.superhero7').style.display ='none';
       document.querySelector('.superhero8').style.display ='none';
       document.querySelector('.superhero9').style.display ='none';
-      if(document.querySelector('.go').classList.toggle('round2'));
       buzzer.pause()
       document.querySelector('.timer').style.color ='#1b729f';
       return;
