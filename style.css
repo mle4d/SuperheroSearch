@@ -37,6 +37,9 @@ body {
   width: 100%;
   cursor: pointer;
 }
+.play-button:hover {
+  transform: scaleX(1.1) scaleY(1.1);
+}
 .play {
   height: 100%;
   width: 100%;
@@ -44,9 +47,7 @@ body {
   background-size: 80%;
   transition: ease 0.3s;
 }
-.play:hover {
-  transform: scaleX(1.1) scaleY(1.1);
-}
+
 .go {
   height: 100%;
   width: 100%;
@@ -99,6 +100,11 @@ body {
   border-radius: 20px;
   transition: ease 0.3s;
   display: none;
+}
+#press {
+  font-family: 'Atma', cursive;
+  text-align: center;
+  line-height: 0px;
 }
 .middle {
   height: 100%;
@@ -215,4 +221,6 @@ body {
 }
 .superhero:hover {
   opacity: 1;
+  transform: scaleX(1.4) scaleY(1.4);
+  border-radius: 50px;
 }
