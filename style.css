@@ -218,9 +218,14 @@ body {
  opacity: 0;
  transition: ease .5s;
  background: center no-repeat;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
+
 .superhero:hover {
   opacity: 1;
   transform: scaleX(1.4) scaleY(1.4);
   border-radius: 50px;
 }
+
