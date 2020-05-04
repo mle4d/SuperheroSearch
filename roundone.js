@@ -9,10 +9,25 @@ document.querySelector('.play').addEventListener('click', function() {
   document.querySelector('.middle').style.opacity = '1';
   document.querySelector('.play').classList.toggle('go');
   document.querySelector('#press').style.display = 'none';
-  document.querySelector('.buzz').addEventListener('click', function(buzz) {
+  document.querySelector('.buzz').addEventListener('click', function() {
     document.querySelector('.buzz').style.display = 'none';
     const buzzsound = new Audio ('assets/sounds/buzzsound.mp3');
     buzzsound.play();
+    document.querySelector('.deadpool').addEventListener('click', function() {
+      document.querySelector('.deadpool').style.display = 'none';
+      const deadpoolsound = new Audio ('assets/sounds/deadpoolsound.mp3');
+      deadpoolsound.play();
+    document.querySelector('.wolverine').addEventListener('click', function() {
+      document.querySelector('.wolverine').style.display = 'none';
+      const wolverinesound = new Audio ('assets/sounds/wolverinesound.mp3');
+      wolverinesound.play();
+    document.querySelector('.greenranger').addEventListener('click', function(greenranger) {
+      document.querySelector('.greenranger').style.display = 'none';
+      const powerrangersound = new Audio ('assets/sounds/powerrangersound.mp3');
+      powerrangersound.play();
+  });
+});
+    });
   });
   setTimeout(function() {
   document.querySelector('.results').innerHTML = `you found ${score} out of 4`;
