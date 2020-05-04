@@ -23,53 +23,30 @@ function bonk(e) {
 
 superheros.forEach(superhero => superhero.addEventListener('click', bonk));
 
-
-// document.querySelector('.round2').addEventListener('click', function() {
-//   document.querySelector('.superhero2').style.background = 'url(assets/superheros/ladybug.png) center no-repeat';
-//   document.querySelector('.superhero5').style.background = 'url(assets/superheros/captainmarvel.png) center no-repeat';
-//   document.querySelector('.superhero6').style.background = 'url(assets/superheros/hulk.png) center no-repeat';
-//   document.querySelector('.superhero7').style.background = 'url(assets/superheros/bumblebee.png) center no-repeat';
-//   document.querySelector('.superhero9').style.background = 'url(assets/superheros/ironman.png) center no-repeat';
-//   document.querySelector('.level').innerHTML = 'Round 2';
-//   document.querySelector('.results').innerHTML = 'Difficulty Level: Easy';
+// document.querySelector('.round3').addEventListener('click', function() {
+//   document.querySelector('.superhero1').style.background = 'url(assets/superheros/wonderwoman.png) center no-repeat';
+//   document.querySelector('.superhero3').style.background = 'url(assets/superheros/superman.png) center no-repeat';
+//   document.querySelector('.superhero4').style.background = 'url(assets/superheros/Elastigirl.png) center no-repeat';
+//   document.querySelector('.superhero5').style.background = 'url(assets/superheros/deadpool.png) center no-repeat';
+//   document.querySelector('.superhero7').style.background = 'url(assets/superheros/superman.png) center no-repeat';
+//   document.querySelector('.superhero8').style.background = 'url(assets/superheros/blackpanther.png) center no-repeat';
+//   document.querySelector('.level').innerHTML = 'Round 3';
+//   document.querySelector('.results').innerHTML = 'Difficulty Level: intermediate';
 //   document.querySelector('.middle').style.opacity = '1';
-//   document.querySelector('.round2').classList.toggle('go');
+//   document.querySelector('.round3').classList.toggle('go');
 //   setTimeout(function() {
-//     document.querySelector('.results').innerHTML = `you found ${score} out of 5`;
-//     document.querySelector('.round2').style.display = 'none';
-//     document.querySelector('.round3').style.display = 'flex';
-//     document.querySelector('.superhero2').style.background = 'none';
+//     document.querySelector('.results').innerHTML = `you found ${score} out of 6`;
+//     document.querySelector('.round3').style.display = 'none';
+//     document.querySelector('.round4').style.display = 'flex';
+//     document.querySelector('.superhero1').style.background = 'none';
+//     document.querySelector('.superhero3').style.background = 'none';
+//     document.querySelector('.superhero4').style.background = 'none';
 //     document.querySelector('.superhero5').style.background = 'none';
-//     document.querySelector('.superhero6').style.background = 'none';
 //     document.querySelector('.superhero7').style.background = 'none';
-//     document.querySelector('.superhero9').style.background = 'none';
+//     document.querySelector('.superhero8').style.background = 'none';
 // }, 30000);
 //   window.body
 // });
-document.querySelector('.round3').addEventListener('click', function() {
-  document.querySelector('.superhero1').style.background = 'url(assets/superheros/wonderwoman.png) center no-repeat';
-  document.querySelector('.superhero3').style.background = 'url(assets/superheros/superman.png) center no-repeat';
-  document.querySelector('.superhero4').style.background = 'url(assets/superheros/Elastigirl.png) center no-repeat';
-  document.querySelector('.superhero5').style.background = 'url(assets/superheros/deadpool.png) center no-repeat';
-  document.querySelector('.superhero7').style.background = 'url(assets/superheros/superman.png) center no-repeat';
-  document.querySelector('.superhero8').style.background = 'url(assets/superheros/blackpanther.png) center no-repeat';
-  document.querySelector('.level').innerHTML = 'Round 3';
-  document.querySelector('.results').innerHTML = 'Difficulty Level: intermediate';
-  document.querySelector('.middle').style.opacity = '1';
-  document.querySelector('.round3').classList.toggle('go');
-  setTimeout(function() {
-    document.querySelector('.results').innerHTML = `you found ${score} out of 6`;
-    document.querySelector('.round3').style.display = 'none';
-    document.querySelector('.round4').style.display = 'flex';
-    document.querySelector('.superhero1').style.background = 'none';
-    document.querySelector('.superhero3').style.background = 'none';
-    document.querySelector('.superhero4').style.background = 'none';
-    document.querySelector('.superhero5').style.background = 'none';
-    document.querySelector('.superhero7').style.background = 'none';
-    document.querySelector('.superhero8').style.background = 'none';
-}, 30000);
-  window.body
-});
 
 document.querySelector('.superhero2').addEventListener('click', function() {
   document.querySelector('.superhero2').style.display = 'none';
