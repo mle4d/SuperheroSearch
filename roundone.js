@@ -11,22 +11,22 @@ document.querySelector('.play').addEventListener('click', function() {
   document.querySelector('#press').style.visibility = 'hidden';
 
   document.querySelector('.buzz').addEventListener('click', function() {
-    document.querySelector('.superhero1').classList.remove('buzz');
+    document.querySelector('.buzz').style.display = 'none';
     const buzzsound = new Audio ('assets/sounds/buzzsound.mp3');
     buzzsound.play();
   });
     document.querySelector('.deadpool').addEventListener('click', function() {
-      document.querySelector('.superhero3').classList.remove('deadpool');
+      document.querySelector('.deadpool').style.display = 'none';
       const deadpoolsound = new Audio ('assets/sounds/deadpoolsound.mp3');
       deadpoolsound.play();
     });
     document.querySelector('.wolverine').addEventListener('click', function() {
-      document.querySelector('.superhero4').classList.remove('wolverine');
+      document.querySelector('.wolverine').style.display = 'none';
       const wolverinesound = new Audio ('assets/sounds/wolverinesound.mp3');
       wolverinesound.play();
     });
     document.querySelector('.greenranger').addEventListener('click', function(greenranger) {
-      document.querySelector('.superhero8').classList.remove('greenranger');
+      document.querySelector('.greenranger').style.display = 'none';
       const powerrangersound = new Audio ('assets/sounds/powerrangersound.mp3');
       powerrangersound.play();
    });

@@ -11,27 +11,27 @@ document.querySelector('.round2').addEventListener('click', function() {
   document.querySelector('#press').style.visibility = 'hidden';
 
   document.querySelector('.batman').addEventListener('click', function() {
-    document.querySelector('.superhero2').classList.remove('batman');
+    document.querySelector('.batman').style.display = 'none';
     const batmansound = new Audio ('assets/sounds/batmansound.mp3');
     batmansound.play();
   });
     document.querySelector('.shera').addEventListener('click', function() {
-    document.querySelector('.superhero5').classList.remove('shera');
+    document.querySelector('.shera').classList.remove('shera');
     const sherasound = new Audio ('assets/sounds/sherasound.mp3');
     sherasound.play();
   });
   document.querySelector('.elastigirl').addEventListener('click', function() {
-    document.querySelector('.superhero6').classList.remove('elastigirl');
+    document.querySelector('.elastigirl').classList.remove('elastigirl');
     const elastigirlsound = new Audio ('assets/sounds/elastigirlsound.wav');
     elastigirlsound.play();
   });
   document.querySelector('.greenlantern').addEventListener('click', function() {
-    document.querySelector('.superhero7').classList.remove('greenlantern');
+    document.querySelector('.greenlantern').classList.remove('greenlantern');
     const greenlanternsound = new Audio ('assets/sounds/greenlanternsound.mp3');
     greenlanternsound.play();
   });
   document.querySelector('.gekko').addEventListener('click', function() {
-    document.querySelector('.superhero9').classList.remove('gekko');
+    document.querySelector('.gekko').style.display = 'none';
     const gekkosound = new Audio ('assets/sounds/gekkosound.mp3');
     gekkosound.play();
   });
