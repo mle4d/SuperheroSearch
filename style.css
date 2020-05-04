@@ -36,6 +36,8 @@ body {
   height: 40%;
   width: 100%;
   cursor: pointer;
+  background: url(assets/go.png) center no-repeat;
+  background-size: 80%;
 }
 .play-button:hover {
   transform: scaleX(1.1) scaleY(1.1);
@@ -45,15 +47,6 @@ body {
   width: 100%;
   background: url(assets/Play.png) center no-repeat;
   background-size: 80%;
-  transition: ease 0.3s;
-}
-
-.go {
-  height: 100%;
-  width: 100%;
-  background: url(assets/go.png) center no-repeat;
-  background-size: 80%;
-  border-radius: 20px;
   transition: ease 0.3s;
 }
 .round2 {
