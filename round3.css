@@ -1,0 +1,24 @@
+.wonderwoman {
+  background: url(assets/superheros/wonderwoman.png) right bottom no-repeat;
+  background-size: auto;
+}
+.superman {
+  background: url(assets/superheros/superman.png) center no-repeat;
+  background-size: auto;
+}
+.antman {
+  background: url(assets/superheros/antman.png) left center no-repeat;
+  background-size: auto;
+}
+.raphael {
+  background: url(assets/superheros/Raphael.png) top center no-repeat;
+  background-size: auto;
+}
+.baymax {
+  background: url(assets/superheros/baymax.png) center no-repeat;
+  background-size: auto;
+}
+.blackpanther {
+  background: url(assets/superheros/blackpanther.png) bottom center no-repeat;
+  background-size: auto;
+}
