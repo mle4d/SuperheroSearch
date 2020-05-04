@@ -26,9 +26,9 @@ document.querySelector('.play').addEventListener('click', function() {
       const powerrangersound = new Audio ('assets/sounds/powerrangersound.mp3');
       powerrangersound.play();
   });
-});
     });
-  });
+      });
+        });
   setTimeout(function() {
   document.querySelector('.results').innerHTML = `you found ${score} out of 4`;
   document.querySelector('.play').style.display = 'none';
