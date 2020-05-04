@@ -1,0 +1,22 @@
+.batman {
+  background: url(assets/superheros/batman.png) center bottom no-repeat;
+  background-size: 40%;
+  height:100%;
+}
+ .shera {
+  background: url(assets/superheros/shera.png) bottom right no-repeat;
+  background-size: 30%;
+  height:100%;
+ }
+  .elastigirl {
+    background: url(assets/superheros/Elastigirl.png) bottom left no-repeat;
+    background-size: auto;
+  }
+  .greenlantern {
+    background: url(assets/superheros/greenlantern.png) bottom left no-repeat;
+    background-size: auto;
+  }
+ .gekko {
+  background: url(assets/superheros/gekko.png) bottom left no-repeat;
+  background-size: auto;
+ }
