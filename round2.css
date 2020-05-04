@@ -12,7 +12,7 @@
     background-size: auto;
 }
 .greenlantern {
-    background: url(assets/superheros/greenlantern.png) bottom left no-repeat;
+    background: url(assets/superheros/greenlantern.png) bottom center no-repeat;
     background-size: 28%;
     height:100%;
 }
