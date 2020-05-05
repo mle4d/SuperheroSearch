@@ -14,7 +14,7 @@ document.querySelector('.round4').addEventListener('click', function() {
   document.querySelector('.superhero9').style.display = 'flex';
   document.querySelector('.superhero9').classList.add('ladybug');
   document.querySelector('.level').innerHTML = 'Round 4';
-  document.querySelector('.results').innerHTML = 'Difficulty Level: intermediate';
+  document.querySelector('.results').innerHTML = 'Difficulty Level: Intermediate';
   document.querySelector('.middle').style.opacity = '1';
   document.querySelector('.round4').style.visibility = 'hidden';
   document.querySelector('#press').style.visibility = 'hidden';
