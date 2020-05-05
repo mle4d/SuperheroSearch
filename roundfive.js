@@ -18,7 +18,7 @@ document.querySelector('.round4').addEventListener('click', function() {
   document.querySelector('.level').innerHTML = 'Round 5';
   document.querySelector('.results').innerHTML = 'Difficulty Level: Hard';
   document.querySelector('.middle').style.opacity = '1';
-  document.querySelector('.round4').style.visibility = 'hidden';
+  document.querySelector('.round5').style.visibility = 'hidden';
   document.querySelector('#press').style.visibility = 'hidden';
 
   document.querySelector('.aquaman').addEventListener('click', function() {
