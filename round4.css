@@ -1,0 +1,30 @@
+.ironman {
+  background: url(assets/superheros/ironman.png) center no-repeat;
+  background-size: auto;
+}
+.scarletwitch {
+  background: url(assets/superheros/scarletwitch.png) center no-repeat;
+  background-size: 28%;
+  height:100%;
+}
+.gamora {
+  background: url(assets/superheros/gamora.png) bottom center no-repeat;
+  background-size: 40%;
+  height:100%;
+}
+.jackjack {
+  background: url(assets/superheros/jackjack.png) top center no-repeat;
+  background-size: auto;
+}
+.heman {
+  background: url(assets/superheros/heman.png) center no-repeat;
+  background-size: auto;
+}
+.captainmarvel {
+  background: url(assets/superheros/captainmarvel.png) bottom center no-repeat;
+  background-size: auto;
+}
+.ladybug {
+  background: url(assets/superheros/ladybug.png) bottom center no-repeat;
+  background-size: auto;
+}
