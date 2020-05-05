@@ -1,0 +1,28 @@
+.aquaman {
+  background: url(assets/superheros/aquaman.png) right bottom no-repeat;
+  background-size: auto;
+}
+.blackwidow {
+  background: url(assets/superheros/blackwidow.png) center no-repeat;
+  background-size: auto;
+}
+.hulk {
+  background: url(assets/superheros/hulk.png) bottom center no-repeat;
+  background-size: auto;
+}
+.megazord {
+  background: url(assets/superheros/megazord.png) top center no-repeat;
+  background-size: auto;
+}
+.shuri {
+  background: url(assets/superheros/Shuri.png) center no-repeat;
+  background-size: auto;
+}
+.skye {
+  background: url(assets/superheros/skye.png) bottom center no-repeat;
+  background-size: auto;
+}
+.groot {
+  background: url(assets/superheros/groot.png) bottom center no-repeat;
+  background-size: auto;
+}
