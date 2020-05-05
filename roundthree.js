@@ -12,7 +12,7 @@ document.querySelector('.round3').addEventListener('click', function() {
   document.querySelector('.superhero8').style.display = 'flex';
   document.querySelector('.superhero8').classList.add('blackpanther');
   document.querySelector('.level').innerHTML = 'Round 3';
-  document.querySelector('.results').innerHTML = 'Difficulty Level: Intermediate';
+  document.querySelector('.results').innerHTML = 'Difficulty Level: Medium';
   document.querySelector('.middle').style.opacity = '1';
   document.querySelector('.round3').style.visibility = 'hidden';
   document.querySelector('#press').style.visibility = 'hidden';
