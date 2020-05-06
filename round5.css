@@ -16,13 +16,13 @@
 }
 .shuri {
   background: url(assets/superheros/Shuri.png) center no-repeat;
-  background-size: 80%;
+  background-size: 35%;
 }
 .skye {
-  background: url(assets/superheros/skye.png) bottom center no-repeat;
+  background: url(assets/superheros/skye.png) center no-repeat;
   background-size: auto;
 }
 .groot {
   background: url(assets/superheros/groot.png) bottom center no-repeat;
-  background-size: 80%;
+  background-size: 30%;
 }
