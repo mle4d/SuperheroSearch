@@ -23,6 +23,7 @@ document.querySelector('.round4').addEventListener('click', function() {
     document.querySelector('.ironman').style.display = 'none';
     const ironmansound = new Audio ('assets/sounds/ironmansound.mp3');
     ironmansound.play();
+    ironmansound.pause();
   });
   document.querySelector('.scarletwitch').addEventListener('click', function() {
     document.querySelector('.scarletwitch').style.display = 'none';
