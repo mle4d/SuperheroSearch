@@ -1,4 +1,4 @@
-document.querySelector('.round4').addEventListener('click', function() {
+document.querySelector('.round5').addEventListener('click', function() {
   document.querySelector('.superhero1').style.display = 'flex';
   document.querySelector('.superhero1').classList.add('aquaman');
   document.querySelector('.superhero2').style.display = 'flex';
