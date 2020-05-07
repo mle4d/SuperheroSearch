@@ -94,6 +94,17 @@ body {
   transition: ease 0.3s;
   display: none;
 }
+.finalresults {
+  height: 100%;
+  width: 100%;
+  background: url(assets/results.png) center no-repeat;
+  background-size: 80%;
+  border-radius: 20px;
+  transition: ease 0.3s;
+  display: none;
+  font-family: 'Atma', cursive;
+  color: #1b729f;
+}
 #press {
   font-family: 'Atma', cursive;
   text-align: center;
