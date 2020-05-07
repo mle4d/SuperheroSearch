@@ -1,0 +1,36 @@
+.bumblebee {
+  background: url(assets/superheros/bumblebee.png) right bottom no-repeat;
+  background-size: auto;
+}
+.captainamerica {
+  background: url(assets/superheros/captainamerica.png) center no-repeat;
+  background-size: auto;
+}
+.storm{
+  background: url(assets/superheros/storm.png) bottom center no-repeat;
+  background-size: auto;
+}
+.catnoir {
+  background: url(assets/superheros/catnoir.png) top center no-repeat;
+  background-size: auto;
+}
+.rocketraccoon {
+  background: url(assets/superheros/RocketRaccoon.png) center no-repeat;
+  background-size: auto;
+}
+.rogue {
+  background: url(assets/superheros/rogue.png) center no-repeat;
+  background-size: auto;
+}
+.spiderman {
+  background: url(assets/superheros/spiderman.png) bottom center no-repeat;
+  background-size: auto;
+}
+.zuma {
+  background: url(assets/superheros/zuma.png) bottom center no-repeat;
+  background-size: auto;
+}
+.thor {
+  background: url(assets/superheros/thor.png) bottom center no-repeat;
+  background-size: 40%;
+}
