@@ -103,12 +103,12 @@ body {
   transition: ease 0.3s;
   display: none;
   justify-content: center;
-  align-content: center;
-  align-items: center;
+  align-content: flex-end;
+  align-items: flex-end;
 }
 .FR {
-  width: 30%;
-  height: 25%;
+  width: 40%;
+  height: 53%;
   text-align: center;
   transform: rotate(-5deg);
   font-family: 'Atma', cursive;
