@@ -10,6 +10,10 @@
   background: url(assets/superheros/storm.png) bottom center no-repeat;
   background-size: auto;
 }
+.leo {
+  background: url(assets/superheros/leo.png) bottom center no-repeat;
+  background-size: auto;
+}
 .catnoir {
   background: url(assets/superheros/catnoir.png) top center no-repeat;
   background-size: auto;
