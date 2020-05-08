@@ -7,11 +7,19 @@
   background-size: auto;
 }
 .storm{
-  background: url(assets/superheros/storm.png) bottom center no-repeat;
+  background: url(assets/superheros/storm.png) bottom right no-repeat;
   background-size: auto;
 }
+.superhero3 {
+  width: 50%;
+  height: 100%;
+}
+.superhero10 {
+  width: 50%;
+  height: 100%;
+}
 .leo {
-  background: url(assets/superheros/leo.png) bottom center no-repeat;
+  background: url(assets/superheros/leo.png) top left no-repeat;
   background-size: auto;
 }
 .catnoir {
