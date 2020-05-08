@@ -72,7 +72,7 @@ document.querySelector('.round6').addEventListener('click', function() {
     document.querySelector('.round6').style.display = 'none';
     document.querySelector('.finalresults').style.display = 'flex';
     document.querySelector('#press').style.visibility = 'visible';
-    document.querySelector('.finalresults').innerHTML = `you found ${wholescore} out of 40`;
+    document.querySelector('.FR').innerHTML = `you found ${wholescore} out of 40`;
     document.querySelector('.superhero1').classList.remove('bumblebee');
     document.querySelector('.superhero2').classList.remove('captainamerica');
     document.querySelector('.superhero3').classList.remove('storm');
