@@ -105,13 +105,15 @@ body {
   justify-content: center;
   align-content: center;
   align-items: center;
-  font-family: 'Atma', cursive;
-  color: #1b729f;
 }
 .FR {
-  width: 40%;
-  height: 30%;
-  transform: rotate(-10deg);
+  width: 30%;
+  height: 25%;
+  text-align: center;
+  transform: rotate(-5deg);
+  font-family: 'Atma', cursive;
+  font-size: 3vmin; 
+  color: #f23c27;
 }
 #press {
   font-family: 'Atma', cursive;
