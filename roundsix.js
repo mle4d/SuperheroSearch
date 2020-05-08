@@ -5,6 +5,8 @@ document.querySelector('.round6').addEventListener('click', function() {
   document.querySelector('.superhero2').classList.add('captainamerica');
   document.querySelector('.superhero3').style.display = 'flex';
   document.querySelector('.superhero3').classList.add('storm');
+  document.querySelector('.superhero10').style.display = 'flex';
+  document.querySelector('.superhero10').classList.add('leo');
   document.querySelector('.superhero4').style.display = 'flex';
   document.querySelector('.superhero4').classList.add('catnoir');
   document.querySelector('.superhero5').style.display = 'flex';
@@ -37,6 +39,11 @@ document.querySelector('.round6').addEventListener('click', function() {
     document.querySelector('.storm').style.display = 'none';
     const stormsound = new Audio ('assets/sounds/stormsound.mp3');
     stormsound.play();
+  });
+  document.querySelector('.leo').addEventListener('click', function() {
+    document.querySelector('.leo').style.display = 'none';
+    const leosound = new Audio ('assets/sounds/leosound.mp3');
+    leosound.play();
   });
   document.querySelector('.catnoir').addEventListener('click', function() {
     document.querySelector('.catnoir').style.display = 'none';
@@ -76,6 +83,7 @@ document.querySelector('.round6').addEventListener('click', function() {
     document.querySelector('.superhero1').classList.remove('bumblebee');
     document.querySelector('.superhero2').classList.remove('captainamerica');
     document.querySelector('.superhero3').classList.remove('storm');
+    document.querySelector('.superhero10').classList.remove('leo');
     document.querySelector('.superhero4').classList.remove('catnoir');
     document.querySelector('.superhero5').classList.remove('rocketraccoon');
     document.querySelector('.superhero6').classList.remove('rogue');
