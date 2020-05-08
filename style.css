@@ -102,8 +102,17 @@ body {
   border-radius: 20px;
   transition: ease 0.3s;
   display: none;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
   font-family: 'Atma', cursive;
   color: #1b729f;
+}
+.FR {
+  /* border: red 1px solid; */
+  width: 40%;
+  height: 30%;
+  transform: rotate(-10deg);
 }
 #press {
   font-family: 'Atma', cursive;
