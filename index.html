@@ -11,12 +11,26 @@
   <link rel="stylesheet" href="round4.css">
   <link rel="stylesheet" href="round5.css">
   <link rel="stylesheet" href="round6.css">
+  <link rel="stylesheet" href="directions.css">
   <title>Sonder's Superhero Search</title>
 </head>
 <body>
   <div class="container">
     <div class="side">
       <div class="title"></div>
+          <nav class="top">
+              <div class="dropdownBackground"></div>
+              <ul>
+                <li>
+                  <a href="#">How to Play</a>
+                  <div class="dropdown dropdown1">
+                    <div class="directions">
+                      <p>how to play here</p>
+                    </div>
+                  </div>
+                </li>
+                  </ul>
+            </nav>
       <div class="play-button" data-time="30" onClick="startGame()">
         <div class="play" onClick="startWholeGame()"></div>
         <div class="round2"></div>
@@ -73,5 +87,6 @@
   <script src="roundfour.js"></script>
   <script src="roundfive.js"></script>
   <script src="roundsix.js"></script>
+  <script src="directions.js"></script>
 </body>
 </html>
