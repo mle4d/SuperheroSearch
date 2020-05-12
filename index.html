@@ -18,19 +18,6 @@
   <div class="container">
     <div class="side">
       <div class="title"></div>
-          <nav class="top">
-              <div class="dropdownBackground"></div>
-              <ul>
-                <li>
-                  <a href="#">How to Play</a>
-                  <div class="dropdown dropdown1">
-                    <div class="directions">
-                      <p id="directions-text">To start game- press on the "play" button found below, this button will update with the round number at the end of each round. Click it each time to start a new round. Once your round starts, you have 30 seconds to search the comic page for superheros. Once you find a superhero, click on it to count it as found!</p>
-                    </div>
-                  </div>
-                </li>
-                  </ul>
-            </nav>
       <div class="play-button" data-time="30" onClick="startGame()">
         <div class="play" onClick="startWholeGame()"></div>
         <div class="round2"></div>
@@ -78,8 +65,21 @@
       <div class="block block9">
           <div class="superhero superhero9"></div>
       </div>
-    </div>
+      </div>
   </div>
+  <nav class="top">
+      <div class="dropdownBackground"></div>
+      <ul>
+        <li>
+          <a href="#">How to Play</a>
+          <div class="dropdown dropdown1">
+            <div class="directions">
+              <p id="directions-text"><u>To start game-</u> press on the "play" button, this button will update with the round number at the end of each round. Click it each time to start a new round. Once your round starts, you have 30 seconds to search the comic page for superheros. Once you find a superhero, click on it to count it as found!</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
   <script src="index.js"></script>
   <script src="roundone.js"></script>
   <script src="roundtwo.js"></script>
