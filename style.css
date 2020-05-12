@@ -33,7 +33,7 @@ body {
   transform: rotate(-10deg);
 }
 .play-button {
-  height: 30%;
+  height: 42%;
   width: 100%;
   cursor: pointer;
   background: url(assets/go.png) center no-repeat;
@@ -180,12 +180,12 @@ body {
   width: 48%;
   height: 100%;
   background: url(assets/Pow.png) center no-repeat;
-  background-size: cover;
+  background-size: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
-  align-content: stretch;
+  align-content: flex-end;
   align-items: flex-end;
   cursor: url(assets/cursor.png), auto;
 }
