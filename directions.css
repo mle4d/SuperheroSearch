@@ -1,16 +1,15 @@
 nav {
   position: relative;
   perspective: 600px;
-  /* border: 1px solid black; */
-  height: 8%;
-  width: 100%;
+  height: 3%;
+  width: 115%;
+  align-self: flex-start;
 }
 ul > li > a {
-  font-family: 'Chewy', cursive;
-  color: #1b729f;
+  font-family: 'Atma', cursive;
+  text-align: center;
+  color:#000000;
   text-decoration: none;
-  text-shadow: 3px 1px 0px #fedb0e;
-  font-size: 6vmin;
   display: inline-block;
   margin-top: -10px;
 }
@@ -35,7 +34,7 @@ ul > li {
   overflow: hidden;
   top: -20px;
   transition: all 0.2s;
-  transform: translateY(-50px);
+  transform: translateY(-210px) translateX(-20px);
   will-change: opacity;
   display: none;
 }
