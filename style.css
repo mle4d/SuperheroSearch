@@ -11,7 +11,7 @@ body {
   overscroll-behavior: none;
 }
 .container {
-  width: 95vw;
+  width: 98vw;
   height: 95vh;
   margin: auto;
   margin-top: 1%;
@@ -177,16 +177,16 @@ body {
   text-align: center;
 }
 .game {
-  width: 48%;
+  width: 49%;
   height: 100%;
   background: url(assets/Pow.png) center no-repeat;
-  background-size: 100%;
+  background-size: cover;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
   align-content: flex-end;
-  align-items: flex-end;
+  align-items: flex-start;
   cursor: url(assets/cursor.png), auto;
 }
 .block {
