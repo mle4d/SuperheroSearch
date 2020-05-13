@@ -2,7 +2,7 @@ nav {
   position: relative;
   perspective: 600px;
   height: 3%;
-  width: 115%;
+  width: 80%;
   align-self: flex-start;
 }
 ul > li > a {
@@ -11,7 +11,7 @@ ul > li > a {
   color:#000000;
   text-decoration: none;
   display: inline-block;
-  margin-top: -15px;
+  margin-top: -8px;
 }
 
 nav ul {
