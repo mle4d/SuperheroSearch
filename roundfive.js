@@ -38,8 +38,8 @@ document.querySelector('.round5').addEventListener('click', function() {
   });
   document.querySelector('.megazord').addEventListener('click', function() {
     document.querySelector('.megazord').style.display = 'none';
-    const megazordsound = new Audio ('assets/sounds/megazordsound.mp3');
-    megazordsound.play();
+    const powerrangersound = new Audio ('assets/sounds/powerrangersound.mp3');
+    powerrangersound.play();
   });
   document.querySelector('.shuri').addEventListener('click', function() {
     document.querySelector('.shuri').style.display = 'none';
