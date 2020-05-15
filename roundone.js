@@ -1,4 +1,3 @@
-
 document.querySelector('.play').addEventListener('click', function() {
   document.querySelector('.superhero1').classList.add('buzz');
   document.querySelector('.superhero3').classList.add('deadpool');
@@ -42,5 +41,3 @@ document.querySelector('.play').addEventListener('click', function() {
 }, 30000);
   window.body
 });
-
-
