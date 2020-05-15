@@ -1,5 +1,5 @@
 .batman {
-  background: url(assets/superheros/batman.png) center bottom no-repeat;
+  background: url(assets/superheros/batman.png) center no-repeat;
   background-size: 40%;
   height:100%;
 }
@@ -8,7 +8,7 @@
   background-size: auto;
 }
 .elastigirl {
-    background: url(assets/superheros/Elastigirl.png) bottom center no-repeat;
+    background: url(assets/superheros/Elastigirl.png)center no-repeat;
     background-size: auto;
 }
 .greenlantern {
