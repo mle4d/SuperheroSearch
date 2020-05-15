@@ -1,5 +1,5 @@
 .buzz {
-  background: url(assets/superheros/Buzz.png) bottom left no-repeat;
+  background: url(assets/superheros/Buzz.png) center left no-repeat;
   background-size: auto;
 }
 .deadpool {
@@ -7,7 +7,7 @@
   background-size: auto;
 }
 .wolverine {
-  background: url(assets/superheros/wolverine.png) bottom left no-repeat;
+  background: url(assets/superheros/wolverine.png) bottom center no-repeat;
   background-size: auto;
 }
 .greenranger {
