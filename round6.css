@@ -1,5 +1,5 @@
 .bumblebee {
-  background: url(assets/superheros/bumblebee.png) right bottom no-repeat;
+  background: url(assets/superheros/bumblebee.png) right center no-repeat;
   background-size: auto;
 }
 .captainamerica {
@@ -7,7 +7,7 @@
   background-size: auto;
 }
 .storm{
-  background: url(assets/superheros/storm.png) bottom right no-repeat;
+  background: url(assets/superheros/storm.png) center right no-repeat;
   background-size: auto;
 }
 .superhero3 {
@@ -35,7 +35,7 @@
   background-size: auto;
 }
 .spiderman {
-  background: url(assets/superheros/spiderman.png) bottom center no-repeat;
+  background: url(assets/superheros/spiderman.png) center no-repeat;
   background-size: auto;
 }
 .zuma {
