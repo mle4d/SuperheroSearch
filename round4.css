@@ -3,8 +3,8 @@
   background-size: auto;
 }
 .scarletwitch {
-  background: url(assets/superheros/scarletwitch.png) center no-repeat;
-  background-size: 28%;
+  background: url(assets/superheros/scarletwitch.png) top center no-repeat;
+  background-size: 58%;
   height:100%;
 }
 .gamora {
