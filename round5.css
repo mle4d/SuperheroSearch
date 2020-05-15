@@ -1,5 +1,5 @@
 .aquaman {
-  background: url(assets/superheros/aquaman.png) right bottom no-repeat;
+  background: url(assets/superheros/aquaman.png) center no-repeat;
   background-size: auto;
 }
 .blackwidow {
@@ -7,7 +7,7 @@
   background-size: auto;
 }
 .hulk {
-  background: url(assets/superheros/hulk.png) bottom center no-repeat;
+  background: url(assets/superheros/hulk.png) center no-repeat;
   background-size: auto;
 }
 .megazord {
