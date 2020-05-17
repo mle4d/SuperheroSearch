@@ -49,7 +49,6 @@ function timer(seconds) {
       buzzer.currentTime=5;
       buzzer.play()
       clearInterval(countdown);
-      // buzzer.pause()
       document.querySelector('.timer').style.color ='#1b729f';
       return;
     }
