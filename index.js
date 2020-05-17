@@ -42,11 +42,14 @@ function timer(seconds) {
     const secondsLeft = Math.round((then - Date.now()) / 1000);
     if(secondsLeft < 6) {
       timerDisplay.style.color ='#f23c27';
+      buzzer.currentTime=1;
       buzzer.play()
     }
     if(secondsLeft < 0) {
+      buzzer.currentTime=5;
+      buzzer.play()
       clearInterval(countdown);
-      buzzer.pause()
+      // buzzer.pause()
       document.querySelector('.timer').style.color ='#1b729f';
       return;
     }
