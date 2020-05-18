@@ -32,7 +32,7 @@ document.querySelector('.round2').addEventListener('click', function() {
   });
   document.querySelector('.gekko').addEventListener('click', function() {
     document.querySelector('.gekko').style.display = 'none';
-    const gekkosound = new Audio ('assets/sounds/gekkosound.mp3');
+    const gekkosound = new Audio ('assets/sounds/gekkosound.m4a');
     gekkosound.play();
   });
   setTimeout(function() {
