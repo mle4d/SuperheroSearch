@@ -17,7 +17,7 @@ document.querySelector('.round2').addEventListener('click', function() {
   });
     document.querySelector('.shera').addEventListener('click', function() {
     document.querySelector('.shera').classList.remove('shera');
-    const sherasound = new Audio ('assets/sounds/sherasound.mp3');
+    const sherasound = new Audio ('assets/sounds/sherasound.m4a');
     sherasound.play();
   });
   document.querySelector('.elastigirl').addEventListener('click', function() {
