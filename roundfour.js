@@ -26,7 +26,7 @@ document.querySelector('.round4').addEventListener('click', function() {
   });
   document.querySelector('.scarletwitch').addEventListener('click', function() {
     document.querySelector('.scarletwitch').style.display = 'none';
-    const scarletwitchsound = new Audio ('assets/sounds/scarletwitchsound.mp3');
+    const scarletwitchsound = new Audio ('assets/sounds/scarletwitchsound.m4a');
     scarletwitchsound.play();
   });
   document.querySelector('.gamora').addEventListener('click', function() {
