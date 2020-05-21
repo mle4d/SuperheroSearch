@@ -72,7 +72,7 @@ document.querySelector('.round6').addEventListener('click', function() {
   });
   document.querySelector('.thor').addEventListener('click', function() {
     document.querySelector('.thor').style.display = 'none';
-    const thorsound = new Audio ('assets/sounds/thorsound.mp3');
+    const thorsound = new Audio ('assets/sounds/thorsound.m4a');
     thorsound.play();
   });
   setTimeout(function() {
