@@ -43,7 +43,7 @@ document.querySelector('.round5').addEventListener('click', function() {
   });
   document.querySelector('.shuri').addEventListener('click', function() {
     document.querySelector('.shuri').style.display = 'none';
-    const shurisound = new Audio ('assets/sounds/shurisound.mp3');
+    const shurisound = new Audio ('assets/sounds/shurisound.m4a');
     shurisound.play();
   });
   document.querySelector('.skye').addEventListener('click', function() {
