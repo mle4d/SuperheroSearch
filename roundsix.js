@@ -52,7 +52,7 @@ document.querySelector('.round6').addEventListener('click', function() {
   });
   document.querySelector('.rocketraccoon').addEventListener('click', function() {
     document.querySelector('.rocketraccoon').style.display = 'none';
-    const rocketraccoonsound = new Audio ('assets/sounds/rocketraccoonsound.mp3');
+    const rocketraccoonsound = new Audio ('assets/sounds/rocketraccoonsound.m4a');
     rocketraccoonsound.play();
   });
   document.querySelector('.rogue').addEventListener('click', function() {
