@@ -53,7 +53,7 @@ document.querySelector('.round5').addEventListener('click', function() {
   });
   document.querySelector('.groot').addEventListener('click', function() {
     document.querySelector('.groot').style.display = 'none';
-    const grootsound = new Audio ('assets/sounds/grootsound.mp3');
+    const grootsound = new Audio ('assets/sounds/grootsound.m4a');
     grootsound.play();
   });
   document.querySelector('.wasp').addEventListener('click', function() {
