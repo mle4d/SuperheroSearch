@@ -48,7 +48,7 @@ document.querySelector('.round5').addEventListener('click', function() {
   });
   document.querySelector('.skye').addEventListener('click', function() {
     document.querySelector('.skye').style.display = 'none';
-    const skyesound = new Audio ('assets/sounds/skyesound.mp3');
+    const skyesound = new Audio ('assets/sounds/skyesound.m4a');
     skyesound.play();
   });
   document.querySelector('.groot').addEventListener('click', function() {
