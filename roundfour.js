@@ -46,7 +46,7 @@ document.querySelector('.round4').addEventListener('click', function() {
   });
   document.querySelector('.captainmarvel').addEventListener('click', function() {
     document.querySelector('.captainmarvel').style.display = 'none';
-    const captainmarvelsound = new Audio ('assets/sounds/captainmarvelsound.mp3');
+    const captainmarvelsound = new Audio ('assets/sounds/captainmarvelsound.m4a');
     captainmarvelsound.play();
   });
   document.querySelector('.ladybug').addEventListener('click', function() {
