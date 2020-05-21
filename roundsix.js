@@ -37,7 +37,7 @@ document.querySelector('.round6').addEventListener('click', function() {
   });
   document.querySelector('.storm').addEventListener('click', function() {
     document.querySelector('.storm').style.display = 'none';
-    const stormsound = new Audio ('assets/sounds/stormsound.mp3');
+    const stormsound = new Audio ('assets/sounds/stormsound.m4a');
     stormsound.play();
   });
   document.querySelector('.leo').addEventListener('click', function() {
@@ -47,7 +47,7 @@ document.querySelector('.round6').addEventListener('click', function() {
   });
   document.querySelector('.catnoir').addEventListener('click', function() {
     document.querySelector('.catnoir').style.display = 'none';
-    const catnoirsound = new Audio ('assets/sounds/catnoirsound.mp3');
+    const catnoirsound = new Audio ('assets/sounds/catnoirsound.m4a');
     catnoirsound.play();
   });
   document.querySelector('.rocketraccoon').addEventListener('click', function() {
