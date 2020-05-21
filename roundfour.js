@@ -51,7 +51,7 @@ document.querySelector('.round4').addEventListener('click', function() {
   });
   document.querySelector('.ladybug').addEventListener('click', function() {
     document.querySelector('.ladybug').style.display = 'none';
-    const ladybugsound = new Audio ('assets/sounds/ladybugsound.mp3');
+    const ladybugsound = new Audio ('assets/sounds/ladybugsound.m4a');
     ladybugsound.play();
   });
   setTimeout(function() {
