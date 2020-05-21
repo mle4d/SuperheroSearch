@@ -36,7 +36,7 @@ document.querySelector('.round4').addEventListener('click', function() {
   });
   document.querySelector('.jackjack').addEventListener('click', function() {
     document.querySelector('.jackjack').style.display = 'none';
-    const jackjacksound = new Audio ('assets/sounds/jackjacksound.mp3');
+    const jackjacksound = new Audio ('assets/sounds/jackjacksound.m4a');
     jackjacksound.play();
   });
   document.querySelector('.heman').addEventListener('click', function() {
