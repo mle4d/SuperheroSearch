@@ -28,7 +28,7 @@ document.querySelector('.round5').addEventListener('click', function() {
   });
   document.querySelector('.blackwidow').addEventListener('click', function() {
     document.querySelector('.blackwidow').style.display = 'none';
-    const blackwidowsound = new Audio ('assets/sounds/blackwidowsound.mp3');
+    const blackwidowsound = new Audio ('assets/sounds/blackwidowsound.m4a');
     blackwidowsound.play();
   });
   document.querySelector('.hulk').addEventListener('click', function() {
