@@ -67,7 +67,7 @@ document.querySelector('.round6').addEventListener('click', function() {
   });
   document.querySelector('.zuma').addEventListener('click', function() {
     document.querySelector('.zuma').style.display = 'none';
-    const zumasound = new Audio ('assets/sounds/zumasound.mp3');
+    const zumasound = new Audio ('assets/sounds/zumasound.m4a');
     zumasound.play();
   });
   document.querySelector('.thor').addEventListener('click', function() {
