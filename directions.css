@@ -2,7 +2,7 @@ nav {
   position: relative;
   perspective: 600px;
   height: 3%;
-  width: 80%;
+  width: 50%;
   align-self: flex-start;
 }
 ul > li > a {
@@ -32,9 +32,8 @@ ul > li {
   opacity: 0;
   position: absolute;
   overflow: hidden;
-  top: -20px;
   transition: all 0.2s;
-  transform: translateY(-210px) translateX(-20px);
+  transform: translateY(40px) translateX(100px) rotate(10deg);
   will-change: opacity;
   display: none;
 }
@@ -59,8 +58,8 @@ ul > li {
   opacity: 1;
 }
 .directions {
-  width: 28vw;
-  height: 35vh;
+  width: 33vw;
+  height: 45vh;
   background: url(assets/info.png) center;
   background-size: 100%;
   border-radius: 10px;
@@ -74,7 +73,7 @@ ul > li {
   height: 65%;
   font-family: 'Atma', cursive;
   color: #1b729f;
-  font-size: 2vmin;
-  margin-top: -6%;
+  font-size: 2.3vmin;
+  line-height: 22px;
   text-align: block;
 }
