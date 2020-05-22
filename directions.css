@@ -33,7 +33,7 @@ ul > li {
   position: absolute;
   overflow: hidden;
   transition: all 0.2s;
-  transform: translateY(40px) translateX(100px) rotate(10deg);
+  transform: translateY(40px) translateX(110px) rotate(10deg);
   will-change: opacity;
   display: none;
 }
