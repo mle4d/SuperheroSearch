@@ -201,6 +201,7 @@ body {
 .block2, .block3 {
   height: 34%;
   width: 33%;
+  overflow: visible;
 }
 .block4 {
  height: 28%;
@@ -239,7 +240,7 @@ body {
   transform: scaleX(1.1) scaleY(1.1);
 }
 
-@media screen and (min-width: 320px) and (max-width: 500px){
+@media screen and (min-width: 320px) and (max-width: 768px){
   .container {
     width: 98vw;
     height: 100vh;
@@ -315,5 +316,6 @@ body {
   }
   .block {
    overflow: visible;
+   transform: scaleX(.9) scaleY(.9);
   }
 }
