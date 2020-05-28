@@ -272,8 +272,6 @@ body {
   .middle {
     height: 15%;
     width: 100%;
-    outline: black 1px solid;
-    display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
